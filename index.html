@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محمد إبراهيم العزب</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #ffffff;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #282828;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #00bcd4;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    footer {
+      background: #1f1f1f;
+      color: #ffffff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #00bcd4;
+    }
+    .skills, .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .skills div, .projects div {
+      border: 1px solid #444;
+      padding: 10px;
+      border-radius: 5px;
+      width: 30%;
+      text-align: center;
+      background: #1f1f1f;
+    }
+    .skills div:hover, .projects div:hover {
+      background: #00bcd4;
+      color: #000;
+    }
+    @media (max-width: 600px) {
+      .skills div, .projects div {
+        width: 100%;
+      }
+    }
+    a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>محمد إبراهيم العزب</h1>
+    <p>مهندس برمجيات | عاشق للرياضة وكرة القدم</p>
+  </header>
+  <nav>
+    <a href="#about">عنّي</a>
+    <a href="#skills">المهارات</a>
+    <a href="#projects">المشاريع</a>
+    <a href="#contact">التواصل</a>
+  </nav>
+  <section id="about">
+    <h2>من أنا؟</h2>
+    <p>مرحبًا، أنا محمد إبراهيم العزب، عمري 20 عامًا وأدرس البرمجة في جامعة Nişantaşı في تركيا.  
+    مهتم بكتابة الكود وأحب الرياضة، خاصة كرة القدم.</p>
+  </section>
+  <section id="skills">
+    <h2>المهارات</h2>
+    <div class="skills">
+      <div><strong>HTML</strong></div>
+      <div><strong>CSS</strong></div>
+      <div><strong>JavaScript</strong></div>
+      <div><strong>React.js</strong></div>
+      <div><strong>Node.js</strong></div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>المشاريع</h2>
+    <div class="projects">
+      <div>
+        <h3>مشروع 1</h3>
+        <p>تطبيق ويب لإدارة المهام.</p>
+      </div>
+      <div>
+        <h3>مشروع 2</h3>
+        <p>موقع شخصي باستخدام React.js.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>التواصل معي</h2>
+    <p>البريد الإلكتروني: <a href="mailto:iprahhimmohamed@gmail.com">iprahhimmohamed@gmail.com</a></p>
+    <p><a href="https://www.instagram.com/mohamed_ibrahim_elazab?igsh=MWxpZmJnb3RkeDJ3dQ==" target="_blank">إنستجرام</a></p>
+    <p><a href="https://www.facebook.com/profile.php?id=61568900826081&mibextid=LQQJ4d" target="_blank">فيسبوك</a></p>
+    <p><a href="https://wa.me/+905069036949" target="_blank">واتساب</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2024 محمد إبراهيم العزب</p>
+  </footer>
+</body>
+</html>
